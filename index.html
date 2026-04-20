@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koffee · Чистый вкус & Минимализм</title>
+    <meta name="description" content="Koffee - искусство чистого кофе. Свежая обжарка, идеальный интерьер и ничего лишнего.">
+    <link rel="canonical" href="https://koffee.iaron.dev/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://koffee.iaron.dev/">
+    <meta property="og:title" content="Koffee - Кофейня в стиле минимализм">
+    <meta property="og:description" content="Попробуйте истинный вкус кофе без лишних деталей. Свежая обжарка каждый день.">
+    <meta property="og:image" content="https://meta.iaron.dev/koffee/og-image.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Koffee - Чистый вкус">
+    <meta name="twitter:description" content="Кофейня для тех, кто ценит эстетику и качество.">
+    <meta name="twitter:image" content="https://meta.iaron.dev/koffee/og-image.jpg">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="https://meta.iaron.dev/koffee/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://meta.iaron.dev/koffee/favicon-16x16.png">
+    <link rel="shortcut icon" href="https://meta.iaron.dev/koffee/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://meta.iaron.dev/koffee/apple-touch-icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav container">
+            <div class="logo-wrapper">
+                <img src="https://img.iaron.dev/koffee/logo.svg" alt="Koffee Logo" class="logo">
+            </div>
+            
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+            </label>
+
+            <ul class="nav-list">
+                <li><a href="#philosophy">Философия</a></li>
+                <li><a href="#menu">Меню</a></li>
+                <li><a href="#history">История</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-bg">
+                <picture>
+                    <source srcset="https://img.iaron.dev/koffee/hero.webp" type="image/webp">
+                    <img src="https://img.iaron.dev/koffee/hero.jpg" alt="Минималистичный вид на чашку кофе сверху" class="hero-img">
+                </picture>
+            </div>
+            <div class="hero-content container">
+                <h1>Koffee.</h1>
+                <p class="subtitle">Ничего лишнего. Только зерно.</p>
+            </div>
+        </section>
+
+        <section id="philosophy" class="philosophy container">
+            <div class="section-label">Философия</div>
+            <h2>Простота - это крайняя степень сложности.</h2>
+            <div class="philosophy-grid">
+                <div class="phil-item">
+                    <img src="https://img.iaron.dev/koffee/icon-1.svg" alt="Иконка зерна"> <h3>Прямой импорт</h3>
+                    <p>Мы работаем напрямую с фермерами Эфиопии и Колумбии, выбирая только микро-лоты.</p>
+                </div>
+                <div class="phil-item">
+                    <img src="https://img.iaron.dev/koffee/icon-2.svg" alt="Иконка капли"> <h3>Чистая вода</h3>
+                    <p>Минерализация воды подбирается индивидуально под каждый сорт зерна.</p>
+                </div>
+                <div class="phil-item">
+                    <img src="https://img.iaron.dev/koffee/icon-3.svg" alt="Иконка времени"> <h3>Обжарка 48ч</h3>
+                    <p>Вы пьете кофе, который был обжарен не более двух суток назад.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu-section">
+            <div class="container">
+                <div class="section-label">Меню</div>
+                <div class="menu-grid">
+                    <div class="menu-category">
+                        <h3>Black</h3>
+                        <ul>
+                            <li><span>Espresso</span> <span>2.5</span></li>
+                            <li><span>V60 / Batch Brew</span> <span>4.0</span></li>
+                            <li><span>Americano</span> <span>3.0</span></li>
+                        </ul>
+                    </div>
+                    <div class="menu-category">
+                        <h3>White</h3>
+                        <ul>
+                            <li><span>Flat White</span> <span>4.5</span></li>
+                            <li><span>Cappuccino</span> <span>4.0</span></li>
+                            <li><span>Latte</span> <span>5.0</span></li>
+                        </ul>
+                    </div>
+                    <div class="menu-category">
+                        <h3>Seasonal</h3>
+                        <ul>
+                            <li><span>Tonic Espresso</span> <span>5.5</span></li>
+                            <li><span>Cold Brew</span> <span>5.0</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="history" class="history-section container">
+            <div class="history-content">
+                <div class="section-label">История</div>
+                <h2>Рожденные в гараже.</h2>
+                <p>В 2024 году мы решили, что миру не нужна еще одна кофейня. Миру нужно место, где кофе - это не топливо, а ритуал. Мы начали с одной ростерной установки и веры в то, что идеальный вкус не терпит компромиссов.</p>
+                <p>Сегодня Koffee - это пространство тишины в центре мегаполиса.</p>
+            </div>
+            <div class="history-visual">
+                <picture>
+                    <source srcset="https://img.iaron.dev/koffee/history.webp" type="image/webp">
+                    <img src="https://img.iaron.dev/koffee/history.jpg" alt="Наш первый ростер" class="history-img">
+                </picture>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery container">
+            <div class="section-label">Внутри</div>
+            <div class="gallery-grid">
+                <picture class="gallery-item"><source srcset="https://img.iaron.dev/koffee/g1.webp" type="image/webp"><img src="https://img.iaron.dev/koffee/g1.jpg" alt="Интерьер" loading="lazy"></picture>
+                <picture class="gallery-item"><source srcset="https://img.iaron.dev/koffee/g2.webp" type="image/webp"><img src="https://img.iaron.dev/koffee/g2.jpg" alt="Процесс варки" loading="lazy"></picture>
+                <picture class="gallery-item"><source srcset="https://img.iaron.dev/koffee/g3.webp" type="image/webp"><img src="https://img.iaron.dev/koffee/g3.jpg" alt="Зерна" loading="lazy"></picture>
+                <picture class="gallery-item"><source srcset="https://img.iaron.dev/koffee/g4.webp" type="image/webp"><img src="https://img.iaron.dev/koffee/g4.jpg" alt="Латте-арт" loading="lazy"></picture>
+                <picture class="gallery-item"><source srcset="https://img.iaron.dev/koffee/g5.webp" type="image/webp"><img src="https://img.iaron.dev/koffee/g5.jpg" alt="Десерты" loading="lazy"></picture>
+                <picture class="gallery-item"><source srcset="https://img.iaron.dev/koffee/g6.webp" type="image/webp"><img src="https://img.iaron.dev/koffee/g6.jpg" alt="Улыбка бариста" loading="lazy"></picture>
+            </div>
+        </section>
+    </main>
+    <section id="process" class="process-section container">
+    <div class="section-label">Мастерство</div>
+    <div class="process-content">
+        <div class="process-text">
+            <h2>Точность до грамма. Температура до градуса.</h2>
+            <p>Мы используем лазерный контроль обжарки и систему фильтрации воды обратного осмоса, чтобы каждая чашка была идентична идеалу.</p>
+        </div>
+        <div class="process-visual">
+            <img src="https://img.iaron.dev/koffee/process-detail.webp" alt="Схема идеальной экстракции" class="svg-illustration">
+        </div>
+    </div>
+    </section>
+
+    <section id="subscribe" class="subscribe-section container">
+        <div class="subscribe-card">
+            <h3>Кофе по расписанию.</h3>
+            <p>Свежая обжарка у вашей двери каждый понедельник. Бесплатная доставка при подписке на месяц.</p>
+            <a href="#" class="cta-button">Оформить подписку</a>
+        </div>
+    </section>
+
+    <section id="contacts" class="contacts-section container">
+        <div class="contacts-grid">
+            <div class="contact-item">
+                <span class="label">Где мы</span>
+                <p>Ул. Минимализма, 10, <br>Центр Эстетики</p>
+            </div>
+            <div class="contact-item">
+                <span class="label">Когда мы</span>
+                <p>Пн - Пт: 08:00 - 21:00<br>Сб - Вс: 10:00 - 22:00</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer container">
+        <div class="footer-links">
+            <a href="https://www.instagram.com/Aro000on">Instagram</a>
+            <a href="https://t.me/">Telegram</a>
+            <a href="https://maps.app.goo.gl/ytAJxFeV87tze4iA8">Maps</a>
+        </div>
+        <p>&copy; 2026 Koffee Inc. Все права защищены зернами.</p>
+    </footer>
+    <div id="toast" class="toast">Функция временно недоступна</div>
+
+    <script>
+        const btn = document.querySelector('.cta-button');
+        const toast = document.getElementById('toast');
+
+        btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            toast.classList.add('show');
+
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3000);
+        });
+    </script>
+</body>
+</html>
