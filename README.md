@@ -1,6 +1,8 @@
 # ☕ Koffee - Minimalist Coffee Site
 **Примечание:** Koffee - это не опечатка, а название. Именно так задумано.
- 
+
+![фото иллюстрация](https://meta.iaron.dev/koffee/og-image.jpg)
+
 ### О проекте
 Простой и чистый лендинг кофейни. 
 ---
